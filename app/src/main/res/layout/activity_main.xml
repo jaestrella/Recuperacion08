@@ -8,73 +8,17 @@
     tools:context="com.iesvirgendelcarmen.dam.recuperacion08.MainActivity">
 
    <TextView
-       android:layout_width="match_parent"
-       android:layout_height="wrap_content"
-       android:text="PRIMERA ACTIVIDAD"
-       android:gravity="center"/>
-
-   <Button
-       android:id="@+id/boton"
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
        android:layout_gravity="center"
-       android:text="LLAMANDO AL INTENT"/>
+       android:text="Primera Actividad" />
 
-   <TextView
-       android:id="@+id/tv1"
-       android:layout_width="match_parent"
-       android:layout_height="wrap_content"
-       android:gravity="center"
-       android:text="Jose Antonio Estrella Fernandez"/>
-
-   <TextView
+   <Button
+       android:id="@+id/button1"
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
-       android:id="@+id/tvDate"
-       android:layout_gravity="center_horizontal"
-       android:text="FECHA"/>
-
-   <TextView
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
-       android:id="@+id/valoresTotales"
-       android:layout_gravity="center_horizontal"
-       android:text="Pasar 5 valores"/>
-
-   <TextView
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
-       android:id="@+id/v1"
-       android:layout_gravity="center_horizontal"
-       android:text="v1"/>
-
-   <TextView
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
-       android:id="@+id/v2"
-       android:layout_gravity="center_horizontal"
-       android:text="v2"/>
-
-   <TextView
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
-       android:id="@+id/v3"
-       android:layout_gravity="center_horizontal"
-       android:text="v3"/>
-
-   <TextView
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
-       android:id="@+id/v4"
-       android:layout_gravity="center_horizontal"
-       android:text="v4"/>
-
-   <TextView
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
-       android:id="@+id/v5"
-       android:layout_gravity="center_horizontal"
-       android:text="v5"/>
+       android:layout_gravity="center"
+       android:text="LLAMANDO AL INTENT" />
 
 
 </LinearLayout>
